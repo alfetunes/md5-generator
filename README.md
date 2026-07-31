@@ -2,6 +2,8 @@
 
 A lightweight, privacy-focused MD5 hash generator that runs entirely in the browser.
 
+https://md5generator.netlify.app/
+
 ## Why this project?
 
 Most online hash generators require you to paste sensitive information into a third-party website. While many services may be trustworthy, there is often no easy way to verify whether submitted content is logged, stored, analyzed, or transmitted elsewhere.
