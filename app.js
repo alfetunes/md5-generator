@@ -1,0 +1,1 @@
+document.getElementById("btn").addEventListener("click",()=>{document.getElementById("output").value=CryptoJS.MD5(document.getElementById("input").value).toString();});

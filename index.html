@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'none'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self';">
+<title>Secure MD5 Generator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<h1>Secure MD5 Generator</h1>
+<p>100% local processing. No network requests.</p>
+<textarea id="input"></textarea>
+<button id="btn">Generate MD5</button>
+<input id="output" readonly>
+</div>
+<script src="crypto-js-local.js"></script>
+<script src="app.js"></script>
+</body></html>
